@@ -1,0 +1,15 @@
+{
+  "name": "fpromise",
+  "version": "0.0.1",
+  "description": "Recreational/educational implementation of promises, as defined by Promises/A+ and ES6.",
+  "main": "promise.js",
+  "scripts": {
+    "test": "promises-aplus-tests promise.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "promises-aplus-tests": "^2.1.2"
+  }
+}
