@@ -1,7 +1,4 @@
-module.exports = {
-    deferred: () => ({
-        promise:{},
-        resolve: () => {},
-        reject: () => {}
-    })
+/* jshint node: true */
+
+module.exports = function (executor) {
 };
