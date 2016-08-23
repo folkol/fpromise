@@ -1,7 +1,6 @@
 /* jshint node: true */
 
 function Promise(executor) {
-    'use strict';
     var pendingFulfills = [];
     var pendingRejects = [];
     var state = {
@@ -25,7 +24,6 @@ function Promise(executor) {
         state.pending = false;
     };
     var then = (onFulfilled, onRejected) => {
-        'use strict';
         if (state.value) {
             onFulfilled(state.value);
         } else if (state.error) {
